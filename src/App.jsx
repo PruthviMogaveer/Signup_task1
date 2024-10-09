@@ -4,7 +4,7 @@ import logo from "../src/assets/logo.png"
 function App() {
 
   return (
-    <div className='flex justify-center bg-[#fafafa]'>
+    <div className='flex justify-center bg-[#fafafa] h-screen'>
       <img src={logo} alt="logo" className='absolute top-10 left-10 w-28 max-md:w-20'/>
       <div className='max-md:mt-28 mx-10 my-12'>
       <SignupForm />
