@@ -6,7 +6,7 @@ const InputField = ({ label, type = 'text', placeholder, icon, options, isSelect
             <label className="block text-gray-600 text-sm font-semibold mb-1">{label}</label>
             {isSelect ? (
                 <select
-                    className="w-full py-2 border-b-2 border-gray-300 focus:outline-none focus:border-gray-500"
+                    className="w-full py-2 border-b-2 bg-none border-gray-300 focus:outline-none focus:border-gray-500"
                     {...rest}
                 >
                     <option>Select from options</option>
